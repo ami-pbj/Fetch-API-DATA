@@ -31,26 +31,24 @@ const Body = () => {
                   </div>
 
                   <div className="container__right ml-10 text-[20px] font-light">
-                    <div className="flex flex-1 gap-5">
-                      <span className="font-semibold ">First: </span>
-                      <br />
+                    <div className="flex flex-row gap-5 ">
+                      <div className="flex-row gap-5">
+                        <span className="font-medium ">First Name: </span>
+                        <p>{data.name.first}</p>
+                      </div>
+                      <div className="flex-row gap-5">
+                        <span className="font-medium ">Last Name: </span>
 
-                      <span className="font-semibold ">Last: </span>
+                        <p>{data.name.last}</p>
+                      </div>
                     </div>
-                    <div className="flex flex-1 gap-5">
-                      <p>{data.name.first}</p>
-                      <br />
 
-                      <p>{data.name.last}</p>
-                    </div>
-                    <br />
-                    <p>
-                      <span className="font-semibold mr-2">Gender: </span>
+                    <p className="mt-3">
+                      <span className="font-medium mr-2">Gender: </span>
                       {data.gender}
                     </p>
-                    <br />
-                    <p>
-                      <span className="font-semibold mr-2">Phone: </span>
+                    <p className="mt-3">
+                      <span className="font-medium mr-2">Phone: </span>
                       {data.phone}
                     </p>
                   </div>
