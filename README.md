@@ -1,6 +1,11 @@
 # Fetch-API-DATA
 Fetching user data from a API. And showing the data to the frontend build by React.js.
 
+### `Screenshots`
+![While fetching the data](<Screenshot 2024-05-03 at 00.23.28.png>)
+
+![After fetching the data](<Screenshot 2024-05-03 at 00.23.50.png>)
+
 
 
 ## Available Scripts
