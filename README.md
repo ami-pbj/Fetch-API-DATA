@@ -10,6 +10,8 @@ While fetching the data
 
 After fetching the data
 
+![After fetching the data](<Screenshot 2024-05-03 at 00.32.29.png>)
+
 ![After fetching the data](<Screenshot 2024-05-03 at 00.23.50.png>)
 
 
