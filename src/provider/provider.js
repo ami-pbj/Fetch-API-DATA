@@ -2,7 +2,7 @@ import React, { useEffect, useReducer } from "react";
 import reducer from "../reducer/reducer";
 
 // api url
-let API = "https://randomuser.me/api/?page=1&results=1&seed=abc";
+let API = "https://randomuser.me/api/?page=5&results=5&seed=abc";
 
 const initialState = {
   isLoading: true,

@@ -31,12 +31,17 @@ code {
   border-color: rgb(87, 67, 179);
 }
 
-.api__data__border__color{
-  border-color: rgb(1,2,3)
+.api__data__border__color {
+  border-color: rgb(1, 2, 3)
+}
+
+.api__data__card {
+  border-color: rgb(1, 2, 3);
+  background-color: rgb(231, 242, 255)
 }
 
 .image__border_color {
-  border-color: rgb(1,2,3)
+  border-color: rgb(1, 2, 3)
 }
 
 .api__text__color {

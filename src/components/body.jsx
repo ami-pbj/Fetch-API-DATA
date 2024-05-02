@@ -8,12 +8,12 @@ const Body = () => {
   const { results, isLoading } = useContext(AppContext);
 
   return (
-    <div className="mt-[12rem] flex flex-1 flex-col justify-center items-center">
+    <div className="mt-[12rem] flex flex-col justify-center items-center">
       <p className="text-[30px] w-[20rem] text-center font-semibold border-2 rounded-2xl header__border__color">
         API DATA
       </p>
 
-      <div className="flex mt-[6rem] text-[30px] w-[40rem] h-[20rem] justify-center font-semibold border-2 rounded-2xl api__data__border__color">
+      <div className="flex-col mt-[6rem] text-[30px] w-fit h-fit justify-center font-semibold border-2 rounded-2xl api__data__border__color">
         {isLoading ? (
           <Loader />
         ) : (
@@ -21,8 +21,8 @@ const Body = () => {
             {/* showing data on the frontend */}
             {results.map((data) => {
               return (
-                <div className="flex flex-1 p-10 gap-5 justify-between items-center api__text__color">
-                  <div className="w-[250px] h-[250px] flex justify-center">
+                <div className="flex flex-1 m-5 p-3 gap-5 justify-left items-center border-none rounded-2xl api__data__card">
+                  <div className="w-[150px] h-[150px] flex justify-center">
                     <img
                       src={data.picture.large}
                       alt="logo"
@@ -30,13 +30,13 @@ const Body = () => {
                     />
                   </div>
 
-                  <div className="container__right ml-10 text-[20px] font-light">
-                    <div className="flex flex-row gap-5 ">
-                      <div className="flex-row gap-5">
+                  <div className="ml-10 text-[20px] font-light api__text__color">
+                    <div className="flex gap-5">
+                      <div className="flex-col gap-5">
                         <span className="font-medium ">First Name: </span>
                         <p>{data.name.first}</p>
                       </div>
-                      <div className="flex-row gap-5">
+                      <div className="flex-col gap-5">
                         <span className="font-medium ">Last Name: </span>
 
                         <p>{data.name.last}</p>
