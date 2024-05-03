@@ -1,6 +1,8 @@
 # Fetch-API-DATA
 Fetching user data from a API. And showing the data to the frontend build by React.js.
 
+API used: "https://randomuser.me/api/?page=5&results=5&seed=abc";
+
 ### `Screenshots`
 
 While fetching the data
